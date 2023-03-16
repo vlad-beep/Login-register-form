@@ -14,6 +14,7 @@ loginLink.addEventListener('click', () => {
 
 iconClose.addEventListener('click', () => {
   box.classList.remove('active-popup');
+  box.classList.remove('active');
 });
 
 loginBtn.addEventListener('click', () => {
